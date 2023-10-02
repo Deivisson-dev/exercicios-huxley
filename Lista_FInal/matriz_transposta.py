@@ -8,7 +8,9 @@ for i in range(colunas):
 print("Digite as dimensoes da matriz:")
 print("Digite os elementos da matriz:")
 print("Matriz transposta:")
+
+
 for i in range(linhas):
     for j in range(colunas):
-        print(matriz[j][i], end=" ")
+        print(f"{matriz[j][i]:5}", end=" ")
     print()
